@@ -7,15 +7,53 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
+    var gitalkConfig = {
+      clientID: '637413f11f5bc5edb286',
+      clientSecret: '74200c114c468baece018d5ceac290d6801e2015',
+      repo: 'Blog',
+      owner: 'dwgeneral',
+      admin: ["dwgeneral"],
+      distractionFreeMode: false
+    };
+
     window.$docsify = {
       coverpage: true,
-      loadNavbar: true
+      loadNavbar: true,
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            var label, domObj, main, divEle, gitalk;
+            label = vm.route.path.split("/").pop();
+            domObj = Docsify.dom;
+            main = domObj.getNode("#main");
+
+            Array.apply(
+              null,
+              document.querySelectorAll("div.gitalk-container")
+            ).forEach(function (ele) {
+              ele.remove();
+            });
+
+            divEle = domObj.create("div");
+            divEle.id = "gitalk-container-" + label;
+            divEle.className = "gitalk-container";
+            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+            domObj.appendTo(domObj.find(".content"), divEle);
+            gitalk = new Gitalk(
+              Object.assign(gitalkConfig, { id: !label ? "home" : label })
+            );
+            gitalk.render("gitalk-container-" + label);
+          });
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </body>
 </html>
