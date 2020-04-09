@@ -1,8 +1,8 @@
 <img width="180px" style="border-radius: 50%" bor src="https://nodejsred.oss-cn-shanghai.aliyuncs.com/nodejs_roadmap-logo.jpeg?x-oss-process=style/may">
 
-# Node.js技术栈指南
+# Hi, I'm Weidong!
 
-- 本文档是作者从事 ```Node.js Developer``` 以来的学习历程，旨在为大家提供一个较详细的学习教程，侧重点更倾向于 Node.js 服务端所涉及的技术栈，如果本文能为您得到帮助，请给予支持！
+- 我是一个对编程充满热爱的年轻人，本文档旨在记录自己的技术成长和思考感悟，如果能对更多人带来点滴帮助，那真是极好的了！
 
 [![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/dwgeneral/Blog) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/dwgeneral/Blog)
 
