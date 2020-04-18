@@ -3,7 +3,7 @@
 **MongoDB 的整体结构**
 
 在说索引之前，需要先跟大家说下 MongoDB 的整体结构，这样会有一个全局的概念。
-![MongoDB Architecture](./assets/mongodb_architecture.png)
+![MongoDB Architecture](../assets/mongodb_architecture.png)
 
 MongoDB 整体结构分为4层，分别为:
   - Network 网络层：负责接收客户端的请求
