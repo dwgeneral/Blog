@@ -5,6 +5,12 @@
 - **Javascript**
   * [手写 Promise](promise.md)
 
+- **服务端**
+  * [Egg.js 与 Rails](egg-rails.md)
+
+- **数据库**
+  * [MongoDB索引原理](mongodb-index.md)
+
 - **数据结构与算法**
   * [知识图谱](DataStructureAndAlgorithm.md)
 
