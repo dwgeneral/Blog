@@ -55,3 +55,8 @@ db.comments.find({moment_id: 1})
     db.users.find({name: 'xxx'}, {name: 1, _id: 0})
   ```
 - 关注索引过滤性 Selectivity, 过滤性就是筛选数据的能力，筛掉的数据越多，说明过滤性越好，用它建索引效果就越好。
+
+**参考资料**
+- https://docs.mongodb.com/manual/indexes/#b-tree
+- https://draveness.me/whys-the-design-mongodb-b-tree/
+- 极客时间-MongoDB高手课
