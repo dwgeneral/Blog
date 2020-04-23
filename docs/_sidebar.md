@@ -6,6 +6,7 @@
   * [手写 Promise](server/promise.md)
 
 - **服务端**
+  * [如何监控 Rails 进程的内存占用情况](server/rails-memory.md)
   * [Egg.js 与 Rails](server/egg-rails.md)
 
 - **云原生**
