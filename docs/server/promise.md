@@ -79,20 +79,65 @@ module.exports = class AwesomePromise {
     return new AwesomePromise((resolve, reject) => reject(reason))
   }
 
+  /**
+   * Promise.all([]) 并行执行多个异步任务，全部成功为成功，一个失败为失败
+   * return promise 
+   * @param {[]} promises 
+   */
   static all(promises) {
-
+    const allResults = new Array(promises.length)
+    let resolvedCount = 0
+    return new Promise((resolve, reject) => {
+      promises.forEach((p, index) => {
+        Promise.resolve(p).then(value => {
+          resolvedCount++
+          allResults[index] = value
+          if (resolvedCount === promises.length) resolve(allResults)
+        }, reason => { reject(reason) })
+      })
+    })
   }
 
+  /**
+   * Promise.race([]) 并行执行多个异步任务，其结果由第一个完成的 promise 决定 
+   * @param {[]} promises 
+   */
   static race(promises) {
-
+    return new Promise((resolve, reject) => {
+      promises.forEach((p, index) => {
+        Promise.resolve(p).then(
+          value => { resolve(value) },
+          reason => { reject(reason) }
+        )
+      })
+    })
   }
 
+  /**
+   * Promise.resolveDelay() 返回一个promise对象，它在指定时间后才确定结果
+   * @param {Promise/Primitive} value 
+   * @param {Number} delay 
+   */
   static resolveDelay(value, delay) {
-
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (value instanceof Promise) value.then(resolve, reject)  
+        else resolve(value)
+      }, delay);
+    })
   }
 
-  static rejectDalay(reson, delay) {
-
+  /**
+   * Promise.rejectDelay() 返回一个promise对象，它在指定时间后失败
+   * @param {*} reason
+   * @param {Number} delay 
+   */
+  static rejectDalay(reason, delay) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        reject(reason)
+      }, delay);
+    })
   }
 }
 ```
