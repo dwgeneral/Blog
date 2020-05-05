@@ -1,14 +1,18 @@
 
 - **简介**
   * [关于文档](README.md)
+  * [关于我](me.md)
 
 - **Javascript**
   * [手写 Promise](server/promise.md)
 
+- **Node.js**
+  * [Node.js 知识地图(持续更新)](node/map.md)
+  * [Node 异步I/O的实现](node/io.md)
+
 - **服务端**
   * [Rails应用内存占用情况](server/rails-memory.md)
   * [Egg.js 与 Rails](server/egg-rails.md)
-
 
 - **云原生**
   * [云原生基础--容器技术](cloudNative/container-basic.md)
@@ -26,3 +30,4 @@
 
 - **工具库**
   * [Array相关](utils/array.md)
+  * [函数相关](utils/function.md)
