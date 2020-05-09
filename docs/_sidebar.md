@@ -7,7 +7,8 @@
   * [手写 Promise](server/promise.md)
 
 - **Node.js**
-  * [Node.js 知识地图(持续更新)](node/map.md)
+  * [Node 知识地图(持续更新)](node/map.md)
+  * [Node 模块机制](node/require.md)
   * [Node 异步I/O的实现](node/io.md)
 
 - **服务端**
@@ -19,6 +20,7 @@
   * [云原生基础--Kubernetes核心概念](cloudNative/kubernetes-basic.md)
 
 - **数据库**
+  * [Redis 知识地图(持续更新)](db/redis-map.md)
   * [MongoDB 索引原理](db/mongodb-index.md)
   * [MongoDB 查询计划](db/mongodb-index-query-plan.md)
 
