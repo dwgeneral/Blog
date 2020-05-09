@@ -10,6 +10,7 @@
   * [Node 知识地图(持续更新)](node/map.md)
   * [Node 模块机制](node/require.md)
   * [Node 异步I/O的实现](node/io.md)
+  * [Node 内存管理机制](node/memory.md)
 
 - **服务端**
   * [Rails应用内存占用情况](server/rails-memory.md)
