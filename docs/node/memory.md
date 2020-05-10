@@ -2,6 +2,8 @@
 
 Node在Javascript的执行上直接受益于V8，可以随着V8的升级就能享受到更好的性能和新的语言特性（ES6，ES7等），同时也受到V8的限制，内存限制就是其中之一。
 
+Node的内存构成主要由通过V8进行分配的部分和Node自行分配的部分。受V8的垃圾回收限制的主要是V8的堆内存。
+
 在一般的后端开发语言中，在基本的内存使用上没有什么限制，然而在Node中通过Javascript使用内存时就会发现只能使用部分内存。64位操作系统下约为1.4GB，32位操作系统下约为0.7GB。 
 
 这个限制可以从V8的源码中找到，下面的 Page::kPageSize 默认为 1MB。可以看到，老生代内存(后面会说到)在64位系统下为1400MB，在32为系统下为700MB，而新生代内存(后面会说到)是由2个reversed_semispace_size_构成，reversed_semispace_size_在64位系统和32位系统上分别为16MB和8MB，所以新生代内存在64位系统和32位系统上的最大值分别为32MB和16MB。
@@ -48,7 +50,7 @@ intptr_t MaxReserved() {
 在V8中所有的Javascript对象都是通过堆来进行分配的。我们可以通过 process.memoryUsage() 来查看目前V8的内存使用情况。
 ```javascript
 {
-  rss: 4935680,       // 驻留集大小，给这个进程分配的物理内存空间（不是全部）
+  rss: 4935680,       // resident set size 进程的常驻内存部分
   heapTotal: 1826816, // 已申请到的堆内存
   heapUsed: 650472,   // 已使用的堆内存
   external: 49879     // 绑定到Javascript的C++对象的内存使用情况
