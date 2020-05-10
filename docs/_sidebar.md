@@ -32,6 +32,4 @@
 - **工程化实践**
   * [GraphQL 知识图谱](experience/graphql.md)
 
-- **工具库**
-  * [Array相关](utils/array.md)
-  * [函数相关](utils/function.md)
+- **工具库(施工中)**
