@@ -30,8 +30,9 @@
   * [MongoDB 索引原理](db/mongodb-index.md)
   * [MongoDB 查询计划](db/mongodb-index-query-plan.md)
 
-- **数据结构与算法**
+- **算法世界**
   * [知识图谱](algorithms/DataStructureAndAlgorithm.md)
+  * [LRU缓存淘汰策略](algorithms/lru.md)
 
 - **工程化实践**
   * [GraphQL 知识图谱](experience/graphql.md)
