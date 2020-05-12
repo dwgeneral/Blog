@@ -100,7 +100,7 @@ db.moments.find({author_id: ObjectId("595c2ad34dd6a36bb9cf6bc4")}).explain("exec
 **执行计划的筛选与缓存**
 
 我们在上例中看到了 queryPlanner 包含两个属性 winningPlan 和 rejectedPlans，说明在执行 winningPlan 之前有一个选举和淘汰过程。事实确实是这样的，而且不光如此，为了提高执行计划选举效率，存储引擎会对每一次的winningPlan进行缓存，方便下次使用。具体流程如下:
-![queryPlanner](../assets/queryPlan.png)
+![queryPlanner](../assets/queryPlan.jpg)
 
 - 存储引擎接收到查询请求后，会先看一下有没有与此请求匹配的计划缓存
 - 如果有缓存，则评估一下是否针对此次查询仍然是高效的，如果是则按此计划执行查询，返回结果

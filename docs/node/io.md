@@ -2,7 +2,7 @@
 
 事件循环、观察者、请求对象、I/O线程池这四者共同构成了Node异步I/O模型的基本要素
 
-![Node 异步IO流程](../assets/Node异步IO.png)
+![Node 异步IO流程](../assets/Node异步IO.jpg)
 
 - 首先Node服务启动，libuv开启主循环，初始化线程池，加载Node Native Module，执行JS代码
 - 执行JS的主线程发现有异步I/O调用，于是创建请求对象，将异步I/O的参数与回调函数封装到请求对象上，然后将请求对象交给线程池处理，自己继续往下执行

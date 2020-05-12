@@ -2,13 +2,13 @@ Kubernetes 是一个自动化的容器编排平台，负责容器应用的部署
 
 **Kubernetes 的核心能力**
 
-![kubernetes-core](../assets/kubernetes_core.png)
+![kubernetes-core](../assets/kubernetes_core.jpg)
 
 **Kubernetes 架构**
 
 Kubernetes 架构是一个典型的二层架构（Mater 和 Node）和 CS 架构（client-server）。Master 作为中央的管控节点，会去与 Node 进行一个连接。所有的K8S集群管理操作界面、CLI 这些用户侧的组件，都只会和 Master 进行连接，Master 会将这些命令下发给相应的节点进行执行。
 
-![kubernetes-architecture](../assets/kubernetes_architecture.png)
+![kubernetes-architecture](../assets/kubernetes_architecture.jpg)
 
 - Master 控制节点包含四个主要的组件：
     - API Server
@@ -34,7 +34,7 @@ Kubernetes 架构是一个典型的二层架构（Mater 和 Node）和 CS 架构
 
 下面我们来看一下在K8S集群上创建Pod的例子
 
-![kubernetes-create-pod](../assets/kubernetes_create_pod.png)
+![kubernetes-create-pod](../assets/kubernetes_create_pod.jpg)
 
 - 用户通过操作界面或者CLI提交了一个 Pod 给 K8S 进行部署，这个 Pod 请求被提交给了 API Server
 - API Server 会把这个信息写入到存储系统 Etcd 中，然后通过 watch 机制 Scheduler 直到了有一个 Pod 需要被调度
@@ -45,7 +45,7 @@ Kubernetes 架构是一个典型的二层架构（Mater 和 Node）和 CS 架构
 
 **Kuberrnetes 中的核心概念及API**
 
-![kubernetes-flow](../assets/kubernetes_flow.png)
+![kubernetes-flow](../assets/kubernetes_flow.jpg)
 
 - Pod
     - 从Container这个最基础的概念出发，首先遇到了容器间紧密协作关系的问题，于是就扩展到了Pod

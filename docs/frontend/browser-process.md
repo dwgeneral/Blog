@@ -1,6 +1,6 @@
 > 从输入 URL 到页面展示，这中间发生了什么？我认为这个问题是所有搞Web开发的人都能如数家珍的射程范围
 
-![browser-process](../assets/browser-process.png)
+![browser-process](../assets/browser-process.jpg)
 
 > 浏览器进程：
   - 用户输入URL，浏览器根据用户输入的信息判断是搜索还是网址，根据URL协议，合成完整的URL
