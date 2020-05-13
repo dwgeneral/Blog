@@ -26,13 +26,18 @@
   * [云原生基础--Kubernetes核心概念](cloudNative/kubernetes-basic.md)
 
 - **数据库**
-  * [Redis 知识地图(持续更新)](db/redis-map.md)
   * [MongoDB 索引原理](db/mongodb-index.md)
   * [MongoDB 查询计划](db/mongodb-index-query-plan.md)
+  * [Redis 知识地图(持续更新)](db/redis-map.md)
+  * [Redis VS Memcached](db/redis-vs-memcache.md)
+  * [Redis 内存管理机制🌈](db/redis-memory.md) 
+  * [Redis 持久化机制🌈](db/redis-persistence.md) 
+  * [Redis 集群🌈](db/redis-cluster.md) 
 
 - **算法世界**
   * [知识图谱](algorithms/DataStructureAndAlgorithm.md)
   * [LRU缓存淘汰策略](algorithms/lru.md)
+  * [垃圾回收算法有哪些🌈](algorithms/gc.md) 
 
 - **工程化实践**
   * [GraphQL 知识图谱](experience/graphql.md)
