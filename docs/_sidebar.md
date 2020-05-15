@@ -40,6 +40,10 @@
   * [知识图谱](algorithms/DataStructureAndAlgorithm.md)
   * [LRU缓存淘汰策略](algorithms/lru.md)
   * [垃圾回收算法有哪些🌈](algorithms/gc.md) 
+  * [跳表在Redis中的应用](algorithhms/skip-list.md)
+
+- **Linux系统知识**
+  * [Linux系统中的IO模型](linux/io.md)
 
 - **工程化实践**
   * [GraphQL 知识图谱](experience/graphql.md)
