@@ -6,8 +6,8 @@
 
 #### Redis实现分布式锁
 
-**基于SETNX**
-Redis 可以通过 SETNX 方法配合 ExpireTime(过期时间参数) 实现锁操作
+**基于SET NX PX实现**
+Redis 可以通过 SET 方法配合 NX(if not exsits) 参数、PX(过期时间毫秒参数) 实现锁操作
 
 ```ruby
 SET lock1 my_random_value NX PX 2000  # 获取锁
