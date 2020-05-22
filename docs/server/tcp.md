@@ -75,7 +75,7 @@ func main() {
 然后启动 Client `$ go run client/main.go`
 
 你的 server 端控制台应该会出现类似下面的输出
-```shell
+```bash
 Server started, Listening 3000....
 收到client端发来的数据： Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!
 收到client端发来的数据： Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!Welcome to My Space!
@@ -192,7 +192,7 @@ func main() {
 
 依次启动 Server 和 Client，粘包问题解决！
 
-```shell
+```bash
 Server started, Listening 3000....
 收到client端发来的数据： Welcome to My Space!
 收到client端发来的数据： Welcome to My Space!
