@@ -26,6 +26,9 @@
   * [云原生基础--容器技术](cloudNative/container-basic.md)
   * [云原生基础--Kubernetes核心概念](cloudNative/kubernetes-basic.md)
 
+- **消息队列**
+  * [消息队列漫谈](mq/mq-basic.md)
+
 - **数据库**
   * [MySQL InnoDB存储引擎索引原理🌈](db/mysql-index.md)
   * [MongoDB WiredTiger存储引擎索引原理](db/mongodb-index.md)
