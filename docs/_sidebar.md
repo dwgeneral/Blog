@@ -33,15 +33,15 @@
   * [消息队列漫谈](mq/mq-basic.md)
 
 - **数据库**
-  * [MySQL InnoDB存储引擎索引原理(施工中👷)](db/mysql-index.md)
   * [MongoDB WiredTiger存储引擎索引原理](db/mongodb-index.md)
   * [MongoDB 查询计划](db/mongodb-index-query-plan.md)
   * [Redis 知识地图(持续更新)](db/redis-map.md)
   * [Redis VS Memcached](db/redis-vs-memcache.md)
-  * [Redis 内存管理机制(施工中👷)](db/redis-memory.md) 
-  * [Redis 持久化机制(施工中👷)](db/redis-persistence.md) 
-  * [Redis 集群(施工中👷)](db/redis-cluster.md) 
+  * [Redis 持久化机制](db/redis-persistence.md) 
   * [Redis 分布式锁](db/redis-lock.md)
+  * [Redis 内存管理机制(施工中👷)](db/redis-memory.md) 
+  * [Redis 集群(施工中👷)](db/redis-cluster.md) 
+  * [MySQL InnoDB存储引擎索引原理(施工中👷)](db/mysql-index.md)
 
 - **算法世界**
   * [知识图谱](algorithms/DataStructureAndAlgorithm.md)
