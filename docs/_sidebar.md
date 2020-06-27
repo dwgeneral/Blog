@@ -19,6 +19,7 @@
   * [Go网络编程--TCP粘包问题](server/tcp.md)
   * [Go语言基础--并发模型](server/goroutine.md)
   * [微服务化架构思辨(施工中👷)](server/microservice.md)
+  * [Go与Rust语言比较](server/go-vs-rust.md)
 
 - **浏览器工作原理与实践**
   * [从输入URL开始说起](frontend/browser-process.md)
