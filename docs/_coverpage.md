@@ -1,6 +1,6 @@
 <img width="180px" style="border-radius: 50%" bor src="assets/cover.png">
 
-# Hi, I'm Weidong! 
+# Hi, I'm Weidong!
 
 - 信仰科技让生活更美好!
 
@@ -10,7 +10,4 @@
 
 - 如果能对更多人带来点滴帮助，那真是极好的了！
 
-[![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/dwgeneral/Blog) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/dwgeneral/Blog)
-
-[GitHub](<https://github.com/dwgeneral/>)
 [开始阅读](README.md)
