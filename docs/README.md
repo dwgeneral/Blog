@@ -7,6 +7,8 @@
   * [微服务可用性设计](architecture/available.md)
   * [磁场系统设计经验总结](architecutre/magnet.md)
   * [海龙平台系统设计经验总结](architecture/pylon.md)
+  * [磁场评论系统架构设计优化思考](architecture/comment.md)
+  * [磁场播放历史架构设计优化思考](architecture/play-history.md)
 
 - **消息队列**
   * [消息队列漫谈](mq/mq-basic.md)
@@ -40,11 +42,12 @@
   * [静态编译与动态编译Rust程序](rust/compile.md)
 
 - **Go**
-  * [Go语言基础--并发模型](server/goroutine.md)
-  * [Go与Rust语言比较](server/go-vs-rust.md)
+  * [Go语言基础--并发模型](go/goroutine.md)
+  * [Go与Rust语言比较](go/go-vs-rust.md)
+  * [Go-Wire使用体验](go/wire.md)
 
 - **Ruby**
-  * [Rails应用内存占用情况](server/rails-memory.md)
+  * [Rails应用内存占用情况](ruby/rails-memory.md)
 
 - **Node.js**
   * [Node 知识地图(持续更新)](node/map.md)
@@ -66,3 +69,6 @@
 
 - **工程化实践**
   * [GraphQL 知识图谱](experience/graphql.md)
+
+- **产品与商业**
+  * [磁场给我的思考](biz/magnet.md)
