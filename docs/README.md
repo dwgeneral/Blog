@@ -7,7 +7,7 @@
   * [微服务可用性设计](architecture/available.md)
   * [磁场系统设计经验总结](architecutre/magnet.md)
   * [海龙平台系统设计经验总结](architecture/pylon.md)
-  * [磁场评论系统架构设计优化思考](architecture/comment.md)
+  * [某厂评论系统架构赏析](architecture/comment.md)
   * [磁场播放历史架构设计优化思考](architecture/play-history.md)
 
 - **消息队列**
