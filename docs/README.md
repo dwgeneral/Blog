@@ -8,7 +8,6 @@
   * [磁场系统设计经验总结](architecutre/magnet.md)
   * [海龙平台系统设计经验总结](architecture/pylon.md)
   * [某厂评论系统架构赏析](architecture/comment.md)
-  * [磁场播放历史架构设计优化思考](architecture/play-history.md)
 
 - **消息队列**
   * [消息队列漫谈](mq/mq-basic.md)
@@ -45,6 +44,7 @@
   * [Go语言基础--并发模型](go/goroutine.md)
   * [Go与Rust语言比较](go/go-vs-rust.md)
   * [Go-Wire使用体验](go/wire.md)
+  * [使用空结构体的几个场景](go/empty-struct.md)
 
 - **Ruby**
   * [Rails应用内存占用情况](ruby/rails-memory.md)
