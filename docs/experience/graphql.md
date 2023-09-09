@@ -21,4 +21,4 @@
 
 由于以上痛点，我关注到了 GraphQL, 它自喻可以解决上述问题，让我们来看看，它要怎么解决。
 
-GraphQL 知识整理 https://windo.me/assets/GraphQL.png
+![GraphQL 知识整理](../assets/GraphQL.png)
