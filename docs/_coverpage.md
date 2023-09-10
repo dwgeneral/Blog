@@ -1,4 +1,4 @@
-<img width="180px" style="border-radius: 50%" bor src="assets/cover.png">
+<img width="180px" style="border-radius: 50%" bor src="assets/cover-2.png">
 
 # Hi, I'm Weidong!
 
