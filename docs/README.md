@@ -24,7 +24,7 @@
   * [Redis 持久化机制](db/redis-persistence.md)
   * [Redis 分布式锁](db/redis-lock.md)
   * [跳表在Redis中的应用](algorithms/skip-list.md)
-  * [MySQL InnoDB 存储引擎索引原理(施工中👷)](db/mysql-index.md)
+  * [MySQL InnoDB 存储引擎索引原理](db/mysql-index.md)
 
 - **Rust**
   * [actix-web框架内存泄漏问题](rust/actix-web-leak.md)
