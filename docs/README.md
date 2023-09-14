@@ -1,6 +1,7 @@
 > **作者**：Weidong
 
 - **架构设计**
+  * [DDIA读书笔记(施工中👷)](architecture/ddia.md)
   * [微服务架构](architecture/microservice.md)
   * [某厂评论系统架构赏析](architecture/comment.md)
 
@@ -51,7 +52,7 @@
 
 - **算法世界**
   * [LRU缓存淘汰策略](algorithms/lru.md)
-  * [垃圾回收算法有哪些(施工中👷)](algorithms/gc.md)
+  * [垃圾回收算法有哪些](algorithms/gc.md)
 
 - **Linux系统知识**
   * [Linux文件系统--IO模型](linux/io.md)
