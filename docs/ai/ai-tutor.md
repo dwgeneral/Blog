@@ -5,47 +5,47 @@
 #### 背景描述
 首先这一部分，我们可以理解为是作者对 chatGPT 设定的一个背景描述，并提供了多种选择让用户可以自定义的选择适合自己的选项。
 
-![background-desc.png](../assets/ai/background-desc.png ':size=700')
+![background-desc.png](../assets/ai/background-desc.png ':size=300')
 
 #### 任务描述
 这里作者明确了 chatGPT 需要执行的具体任务，还巧妙的加入了一些语气和角色设定。
 
-![task-desc.png](../assets/ai/task-desc.png ':size=700')
+![task-desc.png](../assets/ai/task-desc.png ':size=300')
 
 #### 展示示例
 这里很关键，作者通过展示示例，让 chatGPT 摸索回答的形式与规律，对整个对话的调性起了决定性的作用。这就像是一个回答模版，让 chatGPT 给出逻辑连贯，结构清晰的回答。
 
-![shili-1](../assets/ai/shili-1.png ':size=700')
-![shili-2](../assets/ai/shili-2.png ':size=700')
+![shili-1](../assets/ai/shili-1.png ':size=300')
+![shili-2](../assets/ai/shili-2.png ':size=300')
 
 这里作者同样应用了大量示例来规范 chatGPT 的工作流程，这里它的描述非常细致，明确规定了执行每个任务时，chatGPT 需要的具体执行步骤，同时还包括各个环节的标准话术，通过这种方式 chatGPT 不仅知道如何进行思考和工作，还能明确哪些步骤需要开启某个特定的功能，比如 code interpreter。
 
-![shili-3](../assets/ai/shili-3.png ':size=700')
-![shili-4](../assets/ai/shili-4.png ':size=700')
-![shili-5](../assets/ai/shili-5.png ':size=700')
-![shili-6](../assets/ai/shili-6.png ':size=700')
-![shili-7](../assets/ai/shili-7.png ':size=700')
-![shili-8](../assets/ai/shili-8.png ':size=700')
-![shili-9](../assets/ai/shili-9.png ':size=700')
-![shili-10](../assets/ai/shili-10.png ':size=700')
-![shili-11](../assets/ai/shili-11.png ':size=700')
-![shili-12](../assets/ai/shili-12.png ':size=700')
-![shili-13](../assets/ai/shili-13.png ':size=700')
-![shili-14](../assets/ai/shili-14.png ':size=700')
+![shili-3](../assets/ai/shili-3.png ':size=300')
+![shili-4](../assets/ai/shili-4.png ':size=300')
+![shili-5](../assets/ai/shili-5.png ':size=300')
+![shili-6](../assets/ai/shili-6.png ':size=300')
+![shili-7](../assets/ai/shili-7.png ':size=300')
+![shili-8](../assets/ai/shili-8.png ':size=300')
+![shili-9](../assets/ai/shili-9.png ':size=300')
+![shili-10](../assets/ai/shili-10.png ':size=300')
+![shili-11](../assets/ai/shili-11.png ':size=300')
+![shili-12](../assets/ai/shili-12.png ':size=300')
+![shili-13](../assets/ai/shili-13.png ':size=300')
+![shili-14](../assets/ai/shili-14.png ':size=300')
 
 what's more，它明确的设定了当前用户的回应如果不在预期的范围内时，chatGPT 应该如何用标准化的语言来拒绝执行错误的指令，并且引导用户回到正确的操作流程上。
 
 #### 用户参数的描述
 这里给出用户可以选择的参数，一来可以方便用户操作，而来所有的选择都在作者预先设置的描述范围之内，让 chatGPT 输出结果的稳定性。
 
-![user-input](../assets/ai/user-input.png ':size=700')
-![user-input](../assets/ai/user-input-2.png ':size=700')
+![user-input](../assets/ai/user-input.png ':size=300')
+![user-input](../assets/ai/user-input-2.png ':size=300')
 
 #### 功能约束
 这部分是作者设置的一些连接收费插件的提示词，做了一个功能上的约束。
 最后是 chatGPT 通用错误表达的一个约束，应该是作者在不断测试时发现并修改的。
 
-![function-rule](../assets/ai/function-rule.png ':size=700')
+![function-rule](../assets/ai/function-rule.png ':size=300')
 
 #### 总结
 通篇看下来，作者是在理解了 prompt 基本逻辑和结构设计之后，花费了大量的时间在逻辑严谨性和对细节的精确把控上精雕细琢，创造了这款高质量的 prompt。所以如果你想提升自己的 prompt 编写技巧，掌握基础是关键，并需要不断的在细节和严谨性上打磨。
