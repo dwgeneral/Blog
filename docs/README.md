@@ -1,5 +1,8 @@
 > **作者**：Weidong
 
+- **AIGC/Prompt/LLM**
+  * [Prompt深入系列 - Mr.Ranedeer-AI-Tutor 项目解析](ai/ai-tutor.md)
+
 - **架构设计**
   * [DDIA读书笔记(施工中👷)](architecture/ddia.md)
   * [微服务架构](architecture/microservice.md)
