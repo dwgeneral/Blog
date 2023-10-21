@@ -6,7 +6,9 @@ function copyText() {
   alert("文本已复制到剪贴板！");
 }
 var image = document.getElementById("wechat");
-image.addEventListener("click", copyText);
+image.addEventListener("click", func(){
+    copyText()
+});
 </script>
 
 <style>
