@@ -7,6 +7,7 @@
   * [DDIA读书笔记(施工中👷)](architecture/ddia.md)
   * [微服务架构](architecture/microservice.md)
   * [某厂评论系统架构赏析](architecture/comment.md)
+  * [6中常见的API架构设计方案(施工中👷)](architecture/api-design.md)
 
 - **消息队列**
   * [消息队列漫谈](mq/mq-basic.md)
