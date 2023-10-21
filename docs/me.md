@@ -20,7 +20,7 @@ img {
 
 <div style="background-color: #fbfaf8;">
 
-<center><img width="180px" style="border-radius: 50%" bor src="assets/me/avatar-1.jpeg"></center>
+<center><img width="180px" style="border-radius: 50%; margin-top: 30px;" bor src="assets/me/avatar-1.jpeg"></center>
 
 <h2 style="text-align: center;">👨‍💻Happy Engineer</h2>
 
