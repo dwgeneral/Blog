@@ -9,6 +9,12 @@ var image = document.getElementById("wechat");
 image.addEventListener("click", copyText);
 </script>
 
+<style>
+img {
+  pointer-events: none;
+}
+</style>
+
 
 <div style="background-color: #fbfaf8;">
 
