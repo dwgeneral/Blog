@@ -48,10 +48,20 @@ img {
     <p style="text-align: center;"> 微服务 DevOps 系统调优 </p>
 </center>
 
-<div style="display: flex; justify-content: center;">
-    <img id="wechat" width="30px" style="margin: 10%;" bor src="assets/me/wechat.png">
-    <img id="email" width="30px" style="margin: 10%;" bor src="assets/me/email.png">
-    <img id="redbook" width="30px" style="margin: 10%;" bor src="assets/me/red.png">
+<h2 style="text-align: center;"></h2>
+<div style="display: flex; justify-content: center; align-items:center;">
+   <figure>
+    <img id="wechat" width="30px" style="margin-left: 30%;" bor src="assets/me/wechat.png" />
+    <figcaption>Happy-engineer</figcaption>
+    </figure>
+    <figure>
+    <img id="email" width="30px" style="margin-left: 30%;" bor src="assets/me/email.png">
+    <figcaption>guowind@live.com</figcaption>
+    </figure>
+    <figure>
+    <img id="redbook" width="30px" style="margin-left: 30%;" bor src="assets/me/red.png">
+    <figcaption>粉丝太少暂不展示😂</figcaption>
+    </figure>
 </div>
 
 </div>
