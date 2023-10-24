@@ -22,7 +22,7 @@ img {
 
 <center><img width="180px" style="border-radius: 50%; margin-top: 30px;" bor src="assets/me/avatar-1.jpeg"></center>
 
-<h2 style="text-align: center;">👨‍💻Happy Engineer</h2>
+<h2 style="text-align: center;">👨‍💻 Happy Engineer</h2>
 
 <p style="text-align: center;"> 🤾‍♂️ Hi, I'm Weidong, base 北京 </p>
 
@@ -38,7 +38,7 @@ img {
 <center>
     <p style="text-align: center;"> AIGC 应用落地探索 </p>
     <p style="text-align: center;"> SaaS 出海服务探索 </p>
-    <p style="text-align: center;"> 医疗与少儿教育板块 </p>
+    <p style="text-align: center;"> AI 教育板块 </p>
 </center>
 
 <h2 style="text-align: center;">有经验的业务领域</h2>
