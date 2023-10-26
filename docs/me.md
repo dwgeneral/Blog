@@ -1,16 +1,3 @@
-<script>
-function copyText() {
-  var copyTextarea = document.getElementById("wechat");
-  copyTextarea.select();
-  document.execCommand("copy");
-  alert("文本已复制到剪贴板！");
-}
-var image = document.getElementById("wechat");
-image.addEventListener("click", func(){
-    copyText()
-});
-</script>
-
 <style>
 img {
   pointer-events: none;
@@ -26,7 +13,7 @@ img {
 
 <p style="text-align: center;"> 🤾‍♂️ Hi, I'm Weidong, base 北京 </p>
 
-<p style="text-align: center;"> 🌟 9 年后端开发经验，擅长 golang/ruby 微服务开发 </p>
+<p style="text-align: center;"> 🌟 8 年后端开发经验，擅长 golang/ruby 微服务开发 </p>
 
 <p style="text-align: center;"> 🏂 平时也会玩一些 Node/Swift 全栈开发, 懂一些产品设计和数据分析 </p>
 
@@ -48,9 +35,14 @@ img {
     <p style="text-align: center;"> 微服务 DevOps 系统调优 </p>
 </center>
 
+
 <h2 style="text-align: center;"></h2>
+<center><img id="wechat" width="280px" style="margin-top:30px;" bor src="assets/me/ryan-qrcode.jpg" />
+</center>
+
+<!-- <h2 style="text-align: center;"></h2>
 <div style="display: flex; justify-content: left; align-items:center;">
-   <p width="30px" style="margin-left:10%"></p> <!--占位符-->
+   <p width="30px" style="margin-left:10%"></p>
    <figure>
     <img id="wechat" width="30px" style="margin-left: 30%" bor src="assets/me/wechat.png" />
     <figcaption>Happy-engineer</figcaption>
@@ -63,6 +55,6 @@ img {
     <img id="redbook" width="30px" style="margin-left: 30%;" bor src="assets/me/red.png">
     <figcaption>粉丝太少暂不展示😂</figcaption>
     </figure>
-</div>
+</div> -->
 
 </div>
