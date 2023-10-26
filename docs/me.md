@@ -49,9 +49,10 @@ img {
 </center>
 
 <h2 style="text-align: center;"></h2>
-<div style="display: flex; justify-content: center; align-items:center;">
+<div style="display: flex; justify-content: left; align-items:center;">
+   <p width="30px" style="margin-left:10%"></p> <!--占位符-->
    <figure>
-    <img id="wechat" width="30px" style="margin-left: 30%;" bor src="assets/me/wechat.png" />
+    <img id="wechat" width="30px" style="margin-left: 30%" bor src="assets/me/wechat.png" />
     <figcaption>Happy-engineer</figcaption>
     </figure>
     <figure>
