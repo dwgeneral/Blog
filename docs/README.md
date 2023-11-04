@@ -1,4 +1,4 @@
-> **作者**：Weidong
+> **作者**：Ryan
 
 - **AIGC/Prompt/LLM**
   * [Prompt深入系列 - Mr.Ranedeer-AI-Tutor 项目解析](ai/ai-tutor.md)
