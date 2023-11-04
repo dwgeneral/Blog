@@ -1,4 +1,4 @@
-<img width="180px" style="border-radius: 50%" bor src="assets/cover-2.png">
+<img width="180px" style="border-radius: 50%; margin-top: 30px;" bor src="assets/me/avatar-1.jpeg">
 
 # Hi, I'm Ryan
 
