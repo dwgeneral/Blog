@@ -1,3 +1,4 @@
+* [🚀 **个人项目**](projects/main.md)
 
 * [🏪 **架构设计**](architecture/main.md)
 * [⌚️ **消息队列**](mq/main.md)
